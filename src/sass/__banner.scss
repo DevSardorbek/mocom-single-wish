@@ -1,0 +1,52 @@
+.banner__wrapper {
+  margin-top: 190px;
+  .banner__section {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    .banner__section-info {
+      margin-top: 70px;
+    }
+    h4 {
+      font-family: Lilita One;
+      font-size: 64px;
+      font-weight: 400;
+      line-height: 73.15px;
+      text-align: left;
+    }
+    h3 {
+      font-family: Lalezar;
+      font-size: 96px;
+      font-weight: 400;
+      line-height: 120.43px;
+      text-align: left;
+      color: #f42d2d;
+    }
+    h2 {
+      color: #ff0000;
+      font-family: Lalezar;
+      font-size: 96px;
+      font-weight: 400;
+      line-height: 120.43px;
+      text-align: left;
+    }
+    button {
+      padding: 13px 33px;
+      background-color: #ff0000;
+      border-radius: 20px;
+      font-family: Lalezar;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 37.61px;
+      text-align: center;
+      color: #fff;
+      margin-top: 30px;
+      border: 2px solid #ff0000;
+      transition: 0.3s;
+      &:hover {
+        background-color: #fff;
+        color: #ff0000;
+      }
+    }
+  }
+}

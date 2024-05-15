@@ -1,0 +1,48 @@
+.footer__wrapper {
+  background-color: #edf2f4;
+  padding: 80px 0 80px 0;
+  margin-top: 110px;
+  .footer__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    p {
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16.94px;
+    }
+    h4 {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 19.36px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    .footer__section-logo {
+      p {
+        width: 186px;
+      }
+    }
+    .footer__section-useful {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      h4 {
+        margin-bottom: 10px;
+      }
+    }
+    .footer__section-media {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      .media1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+}

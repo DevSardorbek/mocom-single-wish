@@ -1,0 +1,98 @@
+.about__wrapper {
+  margin-top: 150px;
+  .about__section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    h4 {
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 21.78px;
+      text-align: center;
+      margin-top: 33px;
+      margin-bottom: 27px;
+    }
+    h3 {
+      font-family: Lalezar;
+      font-size: 48px;
+      font-weight: 400;
+      line-height: 60px;
+      text-align: center;
+      color: #d62828;
+      width: 908px;
+      height: 189px;
+      top: 1824px;
+      left: 308px;
+      gap: 0px;
+      opacity: 0px;
+
+      margin-bottom: 68px;
+    }
+    p {
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 19.36px;
+      text-align: left;
+    }
+  }
+  .about__section-cards {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 230px;
+    .about__section-info {
+      display: flex;
+      gap: 75px;
+      background-color: #edf2f4;
+      padding: 22px 33px;
+      border-radius: 20px;
+      position: absolute;
+      right: 0;
+
+      .about__section_info-one {
+        h2 {
+          font-family: Lalezar;
+          font-size: 48px;
+          font-weight: 400;
+          line-height: 60px;
+          text-align: left;
+          color: #d62828;
+        }
+        p {
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 19.36px;
+          text-align: left;
+          margin-top: 19px;
+          margin-bottom: 19px;
+        }
+        button {
+          padding: 14px 28px;
+          background-color: #d62828;
+          color: #fff;
+          font-family: Lalezar;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 31.34px;
+          text-align: center;
+          border-radius: 20px;
+          border: 2px solid #d62828;
+          transition: 0.3s;
+          &:hover {
+            background-color: #fff;
+            color: #d62828;
+          }
+        }
+      }
+    }
+    .about__section-img {
+      display: flex;
+      justify-content: end;
+      margin-left: 800px;
+    }
+  }
+}
